@@ -9,6 +9,35 @@ body{
   overflow: hidden;
 }
 
-img.fern {
+.image-container {
+  position: relative;
   height: 100vh;
+  width: max-content;
+}
+
+img.fern {
+  position: relative;
+  z-index: -1;
+  height: 100%;
+}
+
+.image-container .text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20vh;
+  height: 25vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-container img {
+  height: 85%;
+}
+
+.text-container span {
+  font-family: "norse", serif;
+  color: rgb(255, 255, 255);
+  font-size: 18vh;
 }
