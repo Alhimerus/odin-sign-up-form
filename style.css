@@ -4,12 +4,14 @@
 }
 
 body{
+  display: flex;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
 .image-container {
+  display: flex;
   position: relative;
   height: 100vh;
   width: max-content;
@@ -30,6 +32,19 @@ img.fern {
   height: 25vh;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.photo-credits {
+  position: absolute;
+  bottom: 3vh;
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: calc(8px + 1vh);
+}
+
+.photo-credits a {
+  color: rgb(255, 255, 255);
 }
 
 .text-container img {
