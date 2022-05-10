@@ -2,3 +2,13 @@
   font-family: "norse";
   src: url(./fonts/Norse-Bold.otf);
 }
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+img.fern {
+  height: 100vh;
+}
