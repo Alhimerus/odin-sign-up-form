@@ -61,15 +61,19 @@ img.fern {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 700px;
 }
 
 .right-container p {
   font-size: calc(16px + 0.5vh);
   font-family: Roboto, Ubuntu, sans-serif ;
   font-weight: 500;
+  margin: 30px 40px 10px;
 }
 
 label {
+  margin: 15px 40px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   font-family: 'Courier New', Courier, monospace;
@@ -77,4 +81,14 @@ label {
   font-weight: 600;
   letter-spacing: 1.5px;
   color: rgba(60, 60, 60, 0.8);
+}
+
+label input {
+  font-size: calc(12px + 0.5vh);
+  border: 1px solid rgba(180, 180, 180, 0.3);
+  border-radius: 3px;
+}
+
+button {
+  margin: 15px 40px;
 }
