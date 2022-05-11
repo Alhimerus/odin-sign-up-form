@@ -68,3 +68,13 @@ img.fern {
   font-family: Roboto, Ubuntu, sans-serif ;
   font-weight: 500;
 }
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: calc(10px + 0.5vh);
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: rgba(60, 60, 60, 0.8);
+}
