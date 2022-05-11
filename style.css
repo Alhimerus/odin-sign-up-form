@@ -56,3 +56,15 @@ img.fern {
   color: rgb(255, 255, 255);
   font-size: 18vh;
 }
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-container p {
+  font-size: calc(16px + 0.5vh);
+  font-family: Roboto, Ubuntu, sans-serif ;
+  font-weight: 500;
+}
