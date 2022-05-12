@@ -58,9 +58,7 @@ img.fern {
 }
 
 .right-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin: auto 5px;
   min-width: 380px;
   max-height: 100vh;
   overflow: auto;
@@ -94,4 +92,13 @@ label input {
 
 button {
   margin: 15px 40px;
+}
+
+form .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label input:focus {
+  outline: rgba(105, 180, 120, 0.8) solid 3px;
 }
