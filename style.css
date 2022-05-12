@@ -58,7 +58,7 @@ img.fern {
 }
 
 .right-container {
-  margin: auto 5px;
+  margin: auto 0;
   min-width: 380px;
   max-height: 100vh;
   overflow: auto;
@@ -91,7 +91,21 @@ label input {
 }
 
 button {
-  margin: 15px 40px;
+  margin: 15px 40px 30px;
+  padding: calc(4px + 0.5vh) calc(40px + 1vh);
+  background-color: rgb(90, 160, 90);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(70, 140, 70);
+}
+
+button:active {
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 form .row {
@@ -101,4 +115,15 @@ form .row {
 
 label input:focus {
   outline: rgba(105, 180, 120, 0.8) solid 3px;
+}
+
+.right-container span {
+  margin: 40px;
+  font-family: Roboto, Ubuntu, sans-serif ;
+  font-weight: 400;
+}
+
+.right-container span a {
+  text-decoration: none;
+  color: rgb(70, 140, 70);
 }
