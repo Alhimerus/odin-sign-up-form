@@ -87,7 +87,7 @@ label {
 label input {
   font-size: calc(12px + 0.5vh);
   border: 1px solid rgba(180, 180, 180, 0.3);
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 button {
@@ -114,17 +114,33 @@ form .row {
 }
 
 label input:focus {
-  outline: rgba(105, 180, 120, 0.8) solid 3px;
+  outline: none;
+  border-color: rgba(105, 180, 120, 0.8);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .right-container span {
-  margin: 40px;
-  padding-bottom: 30px;
+  display: block;
+  margin: 10px 40px;
   font-family: Roboto, Ubuntu, sans-serif ;
   font-weight: 400;
+  font-size: calc(12px + 0.5vh);
 }
 
 .right-container span a {
   text-decoration: none;
   color: rgb(70, 140, 70);
 }
+
+#password.error,
+#confirm-password.error {
+  border-color: rgba(230, 40, 40, 0.8);
+}
+
+form div:last-of-type {
+  box-shadow: 0 12px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+/* .right-container span {
+  box-shadow: 0px 6px 2px -2px rgba(0, 0, 0, 0.5);
+} */
