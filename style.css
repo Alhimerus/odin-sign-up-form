@@ -3,7 +3,7 @@
   src: url(./fonts/Norse-Bold.otf);
 }
 
-body{
+body {
   display: flex;
   margin: 0;
   padding: 0;
@@ -119,6 +119,7 @@ label input:focus {
 
 .right-container span {
   margin: 40px;
+  padding-bottom: 30px;
   font-family: Roboto, Ubuntu, sans-serif ;
   font-weight: 400;
 }
